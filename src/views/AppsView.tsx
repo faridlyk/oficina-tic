@@ -9,7 +9,7 @@ const apps = [
         abbreviation: "Secretaría",
         department: "Sct. de Cultura, Recreación y Deporte",
         description: "Gestión y fomento de programas culturales, deportivos y recreativos para el desarrollo integral de la comunidad.",
-        image: "/apps/depor.png",
+        image: "/apps/depor.avif",
         url: "http://aplicaciones.puertogaitan-meta.gov.co:81/",
         docs: "#"
     },
@@ -26,7 +26,7 @@ const apps = [
         abbreviation: "Registro de Ingresos",
         department: "Secretaría General",
         description: "Módulo de control para el registro y seguimiento de los ingresos en las dependencias municipales.",
-        image: "/apps/regis.png",
+        image: "/apps/regis.avif",
         url: "http://aplicaciones.puertogaitan-meta.gov.co:83/",
         docs: "#"
     },
@@ -35,7 +35,7 @@ const apps = [
         abbreviation: "FES",
         department: "Secretaría de Educación",
         description: "Portal de gestión para beneficiarios y nuevos aspirantes al Fondo de Educación Superior de Puerto Gaitán.",
-        image: "/apps/fes.png",
+        image: "/apps/fes.avif",
         url: "http://fes.puertogaitan-meta.gov.co/",
         docs: "#"
     },
@@ -44,7 +44,7 @@ const apps = [
         abbreviation: "Concepto Sanitario",
         department: "Secretaría de Salud",
         description: "Solicita y consulta el estado de los conceptos sanitarios para establecimientos de comercio y servicios.",
-        image: "/apps/concep.png",
+        image: "/apps/concep.avif",
         url: "http://aplicaciones.puertogaitan-meta.gov.co:81/",
         docs: "#"
     },
@@ -53,7 +53,7 @@ const apps = [
         abbreviation: "Mascotas",
         department: "Secretaría Ecológica y Ambiental",
         description: "Censo y registro oficial de mascotas para promover la tenencia responsable en el municipio.",
-        image: "/apps/masco.png",
+        image: "/apps/masco.avif",
         url: "http://aplicaciones.puertogaitan-meta.gov.co:82/",
         docs: "#"
     },
@@ -62,7 +62,7 @@ const apps = [
         abbreviation: "Beneficio Animal",
         department: "Secretaría de Agricultura",
         description: "Sistema de gestión y seguimiento para los procesos de la Planta de Beneficio Animal municipal.",
-        image: "/apps/animal.png",
+        image: "/apps/animal.avif",
         url: "http://aplicaciones.puertogaitan-meta.gov.co:91/",
         docs: "#"
     },

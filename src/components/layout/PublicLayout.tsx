@@ -13,7 +13,7 @@ const PublicLayout: React.FC<PublicLayoutProps> = ({ children }) => {
                 {/* Background Image Layer */}
                 <div
                     className="absolute inset-0 bg-cover bg-center opacity-[0.55] dark:opacity-[0.3] transition-opacity duration-1000"
-                    style={{ backgroundImage: 'url(/arco_hd.webp)' }}
+                    style={{ backgroundImage: 'url(/arco_hd.avif)' }}
                 />
 
                 <div className="absolute top-[-25%] left-[-25%] w-[110%] h-[110%] bg-[#009B3A] rounded-full blur-[90px] animate-blob-v1 opacity-60"></div>

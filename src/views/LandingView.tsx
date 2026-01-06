@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import PublicLayout from '@/components/layout/PublicLayout';
 
 const LandingView: React.FC = () => {
@@ -15,7 +14,7 @@ const LandingView: React.FC = () => {
         <h2 className="text-xl font-semibold tracking-tight sm:text-3xl mt-0 text-foreground/80">
           de Puerto Gaitán
         </h2>
-        <p className="text-foreground/70 max-w-2xl mx-auto font-medium my-8">
+        <p className="text-foreground/70 max-w-2xl mx-auto font-medium my-4 md:my-8">
           Bienvenido al ecosistema digital de la Alcaldía Municipal de Puerto Gaitán, Meta.
         </p>
         <div className="mt-4 flex justify-center gap-4">
