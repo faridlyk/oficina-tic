@@ -1,8 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import PublicLayout from '@/components/layout/PublicLayout';
 
 const LandingView: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <PublicLayout>
       {/* Hero Section centered in remaining space */}
@@ -18,10 +20,10 @@ const LandingView: React.FC = () => {
           Bienvenido al ecosistema digital de la Alcaldía Municipal de Puerto Gaitán, Meta.
         </p>
         <div className="mt-4 flex justify-center gap-4">
-          <Button size="lg" className="rounded-full px-8">
+          <Button size="lg" className="rounded-full px-8" onClick={() => navigate('/acceder')}>
             Acceder
           </Button>
-          <Button size="lg" variant="outline" className="rounded-full bg-accent/20 hover:bg-accent/40 focus:bg-accent/40 px-8">
+          <Button size="lg" variant="outline" className="rounded-full bg-accent/20 hover:bg-accent/40 focus:bg-accent/40 px-8" onClick={() => navigate('/registrarse')}>
             Registrarse
           </Button>
         </div>
