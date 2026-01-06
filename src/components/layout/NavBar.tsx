@@ -48,13 +48,15 @@ const NavBar: React.FC = () => {
                         {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                         <span className="sr-only">Cambiar tema</span>
                     </Button>
-                    <Button
-                        size="sm"
-                        className='rounded-full'
-                        onClick={() => navigate('/acceder')}
-                    >
-                        Acceder
-                    </Button>
+                    {!['/acceder', '/registrarse'].includes(location.pathname) && (
+                        <Button
+                            size="sm"
+                            className='rounded-full'
+                            onClick={() => navigate('/acceder')}
+                        >
+                            Acceder
+                        </Button>
+                    )}
                 </div>
             </div>
         </div>

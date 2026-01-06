@@ -15,7 +15,6 @@ import {
     FieldSeparator,
 } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
-import { BrainCircuit, GalleryVerticalEnd } from "lucide-react"
 import { FcGoogle } from "react-icons/fc";
 import { FaMicrosoft } from "react-icons/fa";
 
@@ -35,7 +34,7 @@ export default function LoginForm({
                     <div className={cn("flex flex-col  gap-6 ", className)} {...props}>
                         <Card className="bg-card">
                             <CardHeader className="text-center">
-                                <CardTitle className="text-xl">¡Hola de nuevo!</CardTitle>
+                                <CardTitle className="text-xl">Acceder</CardTitle>
                                 <CardDescription>
                                     Inicia sesión con tu cuenta de Google o Outlook
                                 </CardDescription>
@@ -79,7 +78,7 @@ export default function LoginForm({
                                         </Field>
                                         <Field>
                                             <Button type="submit">Iniciar sesión</Button>
-                                            <FieldDescription className="text-center">
+                                            <FieldDescription className="text-center text-foreground">
                                                 ¿No tienes una cuenta? <Button variant="link" className="p-0 h-auto font-normal underline" onClick={() => navigate('/registrarse')}>Regístrate</Button>
                                             </FieldDescription>
                                         </Field>
@@ -87,7 +86,7 @@ export default function LoginForm({
                                 </form>
                             </CardContent>
                         </Card>
-                        <FieldDescription className="px-6 text-center">
+                        <FieldDescription className="px-6 text-center text-foreground">
                             Al hacer clic en continuar, aceptas nuestros <a href="#">Términos de Servicio</a>{" "}
                             y <a href="#">Política de Privacidad</a>.
                         </FieldDescription>
