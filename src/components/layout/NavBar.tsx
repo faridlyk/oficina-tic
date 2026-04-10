@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { BrainCircuit, Moon, Sun } from 'lucide-react';
-import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 import { useTheme } from '@/context/theme-provider';
 
 const SECTIONS = ['inicio', 'aplicaciones'] as const;

@@ -1,7 +1,7 @@
 import React, { memo, useState, useCallback } from 'react';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from '@/components/ui/dialog';
-import { ExternalLink, Ticket, HelpCircle, BriefcaseBusiness, Wifi } from 'lucide-react';
+import { ExternalLink, Ticket, BriefcaseBusiness, Wifi } from 'lucide-react';
 import PublicLayout from '@/components/layout/PublicLayout';
 
 const APPS = [

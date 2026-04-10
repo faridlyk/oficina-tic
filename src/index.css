@@ -203,16 +203,6 @@ textarea {
   /* Standard syntax */
 }
 
-.main-content-bg::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  backdrop-filter: blur(8px);
-  z-index: -1;
-}
 
 @layer utilities {
   .bg-mesh-gradient {
@@ -234,11 +224,3 @@ html {
   scroll-behavior: smooth;
 }
 
-@keyframes shimmer {
-  0%   { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
-}
-
-.animate-shimmer {
-  animation: shimmer 1.6s ease-in-out infinite;
-}
