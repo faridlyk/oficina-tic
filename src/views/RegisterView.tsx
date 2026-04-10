@@ -11,14 +11,10 @@ import {
     FieldError,
     FieldGroup,
     FieldLabel,
-    FieldSeparator,
 } from "@/components/ui/field"
 import PublicLayout from '@/components/layout/PublicLayout';
 import { useNavigate } from 'react-router-dom';
 import { cn } from "@/lib/utils"
-import { GalleryVerticalEnd } from "lucide-react"
-import { FcGoogle } from "react-icons/fc";
-import { FaMicrosoft } from "react-icons/fa";
 
 const formSchema = z.object({
     name: z.string().min(2, {
