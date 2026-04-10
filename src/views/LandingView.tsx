@@ -184,6 +184,41 @@ const LandingView: React.FC = () => {
             </div>
         </section>
 
+        {/* Footer */}
+        <footer className="w-full">
+            <div className="max-w-5xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="flex flex-col items-center sm:items-start gap-1">
+                    <p className="text-sm font-bold text-foreground/80">Oficina TIC</p>
+                    <p className="text-xs">Municipio de Puerto Gaitán, Meta, Colombia</p>
+                </div>
+
+                <div className="flex flex-col items-center gap-1">
+                    <div className="flex items-center gap-4">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.puertogaitan-meta.gov.co/politica-de-seguridad/politica-de-derechos-de-autor-yo-autorizacion-de-uso" className="text-xs font-medium text-foreground/70 underline underline-offset-4 hover:text-foreground transition-colors">Política de privacidad</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.puertogaitan-meta.gov.co/politica-de-seguridad/politica-de-tratamiento-de-datos-personales" className="text-xs font-medium text-foreground/70 underline underline-offset-4 hover:text-foreground transition-colors">Términos de uso</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.puertogaitan-meta.gov.co/contactenos" className="text-xs font-medium text-foreground/70 underline underline-offset-4 hover:text-foreground transition-colors">Contacto</a>
+                </div>
+                    <p className="text-xs">
+                        © {new Date().getFullYear()} Todos los derechos reservados
+                    </p>
+                    
+                </div>
+
+                <p className="text-xs">
+                        Hecho por{' '}
+                        <a
+                            href="https://github.com/faridlyk"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-medium text-foreground/70 underline underline-offset-4 font-medium text-foreground/70 underline underline-offset-4 hover:text-foreground transition-colors"
+                        >
+                            Farid Awad
+                        </a>
+                        {" "}y Jorge Daza
+                    </p>
+            </div>
+        </footer>
+
         {/* WiFi warning dialog */}
         <Dialog open={!!pendingHref} onOpenChange={(open) => !open && setPendingHref(null)}>
             <DialogContent className="max-w-sm rounded-2xl bg-white/80 dark:bg-zinc-900/80 backdrop-blur-xl border border-black/[0.07] dark:border-white/[0.07] shadow-2xl">
