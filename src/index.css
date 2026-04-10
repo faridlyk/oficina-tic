@@ -175,8 +175,6 @@
   --sidebar-ring: oklch(0.7058 0 0);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Great+Vibes&display=swap');
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -234,4 +232,13 @@ textarea {
 
 html {
   scroll-behavior: smooth;
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.animate-shimmer {
+  animation: shimmer 1.6s ease-in-out infinite;
 }
